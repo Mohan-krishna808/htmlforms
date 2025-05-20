@@ -1,0 +1,87 @@
+
+<h1>Course Registration Form</h1>
+<fieldset>
+  <legend>Personal Details</legend>
+  
+  <form action="ressheet.html" autocomplete="">
+  <table>
+    <tr>
+      <td><label for="">First Name</label></td>
+      <td><input type="text" required placeholder="Mohan" name="first_name"/><br /></td>
+    </tr>
+    <tr>
+      <td><label for="">Surname</label></td>
+      <td><input type="text" name="surname" id="" placeholder="kandi" /><br /></td>
+    </tr>
+    <tr>
+      <td><label for="">Mobile Number</label></td>
+      <td><input type="number" name="mobile number" id="" /><br /></td>
+    </tr>
+    <tr>
+      <td><label for="">Email</label></td>
+      <td><input type="email" name="email" id="" /><br /></td>
+    </tr>
+    <tr>
+      <td><label for="">Password</label></td>
+      <td><input type="password" name="password" id="" minlength="8" /> <br /></td>
+    </tr>
+    <tr>
+      <td><label for="">DOB</label></td>
+      <td><input type="date" name="dob" id="" /></td>
+    </tr>
+    <tr>
+      <td><label for="">Gender</label></td>
+      <td>
+        <input type="radio" name="Gender" id="" value="M" />MALE
+        <input type="radio" name="Gender" id="" value="F"/>FEMALE
+        <input type="radio" name="Gender" id="" value="O"/>OTHERS <br />
+      </td>
+    </tr>
+    <tr>
+      <td><label for="">Select Country</label></td>
+      <td>
+        <select name="country" id="">
+          <option value="IND">INDIA</option>
+          <option value="USA">USA</option>
+          <option value="GERM">GERMANY</option>
+        </select>
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td><label for="">Upload Image</label></td>
+      <td><input type="file" name="up image" id="" /><br /></td>
+    </tr>
+    <tr>
+      <td><input type="reset" name="" id="" /></td>
+    </tr>
+    
+  </table>
+</fieldset>
+<fieldset>
+  <legend>Course Details</legend>
+
+  <label for="">Select Course</label><br />
+  <select name="select course" id="">
+    <option value="pfs">Python full stack</option>
+    <option value="jav">Java</option>
+    <option value="c++">c++</option></select
+  ><br />
+  <label for="">Delivery Mode</label>
+  <input type="radio" name="Delivery mode" id="online" />ONLINE
+  <input type="radio" name="Delivery mode" id="offline" />OFFLINE
+  <br />
+  <label for="">Comment</label><br />
+  <textarea name="" id="" rows="5" cols="30"></textarea><br>
+</fieldset>
+<input type="submit" name="" id="">
+</form>
+
+
+
+
+
+
+
+
+http://127.0.0.1:5500/ressheet.html?Gender=on&Delivery+mode=on
